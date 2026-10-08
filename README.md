@@ -38,6 +38,12 @@ cd ComfyUI/custom_nodes
 git clone https://github.com/UCHIJ/ComfyUI-ResolveVideoExport.git
 ```
 
+or install with Comfy CLI
+
+```bash
+comfy node install comfyui-davinci-resolve-export
+```
+
 Restart ComfyUI.
 
 
