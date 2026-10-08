@@ -158,10 +158,6 @@ That's expected. ProRes and DNxHR aren't browser formats. The file is meant for 
 **Resolve imports the video but there's no audio**
 Use the `from VIDEO` node with a video that has audio, or connect an `AUDIO` input to the `from IMAGES` node.
 
-## License
-
-Add your license here (for example MIT).
-
 ## Contributing
 
 Issues and pull requests are welcome.
