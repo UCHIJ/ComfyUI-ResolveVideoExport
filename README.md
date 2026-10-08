@@ -11,7 +11,7 @@ The result is clips that fail to import or import with missing video or audio. T
 
 *Exact codec support varies by Resolve version and platform. See Blackmagic's documentation for the current list.*
 
-![Workflow overview](docs/images/workflow-overview.png)
+
 
 ## Features
 
@@ -57,9 +57,9 @@ Use **Export Video for DaVinci Resolve (from VIDEO)**.
 4. Run the workflow
 5. Find your file in `ComfyUI/output/video/` (or the folder you set in `filename_prefix`)
 
-An example workflow is included: [`workflow-example-export-for-resolve.json`](workflow-example-export-for-resolve.json). Drag it onto the ComfyUI canvas, select a video in the Load Video node, and run it. A **Preview Any** node on the output shows you the saved file path.
+<img width="1906" height="861" alt="Screenshot from 2026-10-08 09-50-52" src="https://github.com/user-attachments/assets/ab8fd1e0-2641-4e1c-b490-c91bbaf049e9" />
 
-![Exporting a loaded video](docs/images/export-from-video.png)
+An example workflow is included: [`workflow-example-export-for-resolve.json`](workflow-example-export-for-resolve.json). Drag it onto the ComfyUI canvas, select a video in the Load Video node, and run it. A **Preview Any** node on the output shows you the saved file path.
 
 ### Exporting generated images (with optional audio)
 
@@ -70,7 +70,8 @@ Use **Export Video for DaVinci Resolve (from IMAGES)**.
 3. Optionally connect an `AUDIO` source
 4. Pick a `codec_preset` and run
 
-![Exporting an image batch with audio](docs/images/export-from-images.png)
+<img width="1906" height="861" alt="Screenshot from 2026-10-08 09-54-28" src="https://github.com/user-attachments/assets/a2c4643d-128a-441b-8dee-d90199a60334" />
+
 
 ### Importing into DaVinci Resolve
 
