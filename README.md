@@ -1,4 +1,5 @@
 # ComfyUI Export for DaVinci Resolve
+<img width="1080" height="400" alt="davinci" src="https://github.com/user-attachments/assets/424be472-7ef3-43f8-8b03-8bcb07f58de8" />
 
 Export ComfyUI videos in formats **DaVinci Resolve (including the free version) can actually import**: **DNxHR** and **ProRes** in a `.mov` container, with audio.
 
@@ -10,8 +11,6 @@ DaVinci Resolve **Free** has limited support for the H.264/H.265 `.mp4` files Co
 The result is clips that fail to import or import with missing video or audio. These nodes avoid the problem: generate in ComfyUI, then drop a Resolve-friendly `.mov` straight into your timeline, with no manual conversion step.
 
 *Exact codec support varies by Resolve version and platform. See Blackmagic's documentation for the current list.*
-
-
 
 ## Features
 
@@ -159,4 +158,8 @@ Use the `from VIDEO` node with a video that has audio, or connect an `AUDIO` inp
 
 ## Contributing
 
-Issues and pull requests are welcome.
+<div align="center">
+
+https://github.com/user-attachments/assets/0059c6e1-a175-4e95-bf96-6a91849a05f6
+
+</div>
