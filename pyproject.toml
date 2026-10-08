@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-davinci-resolve-export"  # must be unique on the registry, lowercase with hyphens
 description = "Export ComfyUI videos as DNxHR or ProRes .mov files that DaVinci Resolve (including the free version) can import, with audio and correct color."
-version = "1.0.0"  # bump this and push to publish an update
+version = "1.0.1"  # bump this and push to publish an update
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
 dependencies = []  # PyAV already ships with ComfyUI
