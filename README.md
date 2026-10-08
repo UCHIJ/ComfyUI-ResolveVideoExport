@@ -41,7 +41,6 @@ git clone https://github.com/UCHIJ/ComfyUI-ResolveVideoExport.git
 
 Restart ComfyUI.
 
-<!-- If you publish to the Comfy Registry / ComfyUI-Manager, add an install line here. -->
 
 ## Usage
 
